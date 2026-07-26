@@ -1,4 +1,8 @@
-# Auto Attack Cooldown
+<p align="center">
+  <img src="./assets/banner.png" alt="AutoAttackCooldown" width="340" />
+</p>
+
+# AutoAttackCooldown
 
 > Minecraft 1.21.11 Fabric 模组 —— 长按攻击键，冷却就绪自动出手。
 

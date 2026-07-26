@@ -1,10 +1,10 @@
 {
     "key.autoattack.toggle": "Toggle Auto Attack",
-    "key.category.autoattack.main": "Auto Attack Cooldown",
-    "message.autoattack.enabled": "Auto Attack: ON",
-    "message.autoattack.disabled": "Auto Attack: OFF",
+    "key.category.autoattack.main": "AutoAttackCooldown",
+    "message.autoattack.enabled": "AutoAttackCooldown: ON",
+    "message.autoattack.disabled": "AutoAttackCooldown: OFF",
 
-    "title.autoattack.config": "Auto Attack Config",
+    "title.autoattack.config": "AutoAttackCooldown Config",
     "category.autoattack.general": "General",
     "option.autoattack.enabled": "Enabled",
     "option.autoattack.onlyAttackEntities": "Attack Entities Only",

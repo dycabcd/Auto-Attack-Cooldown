@@ -1,4 +1,4 @@
-# Auto Attack Cooldown —— MC 1.21.11 Fabric 模组
+# AutoAttackCooldown —— MC 1.21.11 Fabric 模组
 
 ## 交付物
 

@@ -2,7 +2,7 @@
 
 ## 免责声明
 
-本软件（"Auto Attack Cooldown"）按"原样"提供，不附带任何明示或暗示的担保。在适用法律允许的最大范围内，作者和版权持有人不承担任何责任，包括但不限于因使用本软件而产生的任何直接、间接、附带、特殊、惩罚性或后果性损害，即使已被告知可能发生此类损害。
+本软件（"AutoAttackCooldown"）按"原样"提供，不附带任何明示或暗示的担保。在适用法律允许的最大范围内，作者和版权持有人不承担任何责任，包括但不限于因使用本软件而产生的任何直接、间接、附带、特殊、惩罚性或后果性损害，即使已被告知可能发生此类损害。
 
 ### 您理解并同意：
 
@@ -20,7 +20,7 @@
 
 ## Disclaimer
 
-This software ("Auto Attack Cooldown") is provided "as is", without warranty of any kind, express or implied. To the maximum extent permitted by applicable law, the authors and copyright holders shall not be liable for any claims, damages or other liability arising from the use of the software.
+This software ("AutoAttackCooldown") is provided "as is", without warranty of any kind, express or implied. To the maximum extent permitted by applicable law, the authors and copyright holders shall not be liable for any claims, damages or other liability arising from the use of the software.
 
 ### You acknowledge and agree that:
 

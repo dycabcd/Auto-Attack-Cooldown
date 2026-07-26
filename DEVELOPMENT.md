@@ -1,4 +1,4 @@
-# Auto Attack Cooldown — 开发日志
+# AutoAttackCooldown — 开发日志
 
 > 完整记录从原型到发布的全过程，2026-07-26
 
@@ -8,7 +8,7 @@
 
 | 项目 | 内容 |
 |------|------|
-| 模组名称 | Auto Attack Cooldown |
+| 模组名称 | AutoAttackCooldown |
 | 版本 | 1.0.0 |
 | 目标平台 | Minecraft 1.21.11 + Fabric Loader ≥ 0.19.0 |
 | 语言 | Java 21 |

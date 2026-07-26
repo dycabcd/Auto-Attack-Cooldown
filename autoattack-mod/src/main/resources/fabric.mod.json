@@ -2,7 +2,7 @@
     "schemaVersion": 1,
     "id": "autoattack",
     "version": "${version}",
-    "name": "Auto Attack Cooldown",
+    "name": "AutoAttackCooldown",
     "description": "长按攻击键，在攻击冷却完全恢复的瞬间自动出手。基于原版冷却机制，自动适配所有武器（含其他模组的自定义武器）。纯客户端，单人/多人通用。",
     "authors": [
         "GameDesigner"

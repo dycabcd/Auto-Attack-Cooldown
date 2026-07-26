@@ -6,7 +6,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 /**
- * Auto Attack Cooldown — 客户端模组入口。
+ * AutoAttackCooldown — 客户端模组入口。
  */
 public class AutoAttackClient implements ClientModInitializer {
 
