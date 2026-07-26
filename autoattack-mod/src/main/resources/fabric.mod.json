@@ -1,0 +1,35 @@
+{
+    "schemaVersion": 1,
+    "id": "autoattack",
+    "version": "${version}",
+    "name": "Auto Attack Cooldown",
+    "description": "长按攻击键，在攻击冷却完全恢复的瞬间自动出手。基于原版冷却机制，自动适配所有武器（含其他模组的自定义武器）。纯客户端，单人/多人通用。",
+    "authors": [
+        "GameDesigner"
+    ],
+    "contact": {},
+    "license": "MIT",
+    "icon": "assets/autoattack/icon.png",
+    "environment": "client",
+    "entrypoints": {
+        "client": [
+            "dev.gamebuddy.autoattack.AutoAttackClient"
+        ],
+        "modmenu": [
+            "dev.gamebuddy.autoattack.compat.ModMenuIntegration"
+        ]
+    },
+    "mixins": [
+        "autoattack.mixins.json"
+    ],
+    "depends": {
+        "fabricloader": ">=0.19.0",
+        "fabric-api": ">=0.100.0",
+        "minecraft": "~1.21.11",
+        "java": ">=21"
+    },
+    "recommends": {
+        "cloth-config": ">=20.0.0",
+        "modmenu": ">=17.0.0"
+    }
+}

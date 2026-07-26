@@ -1,0 +1,18 @@
+{
+    "key.autoattack.toggle": "Toggle Auto Attack",
+    "key.category.autoattack.main": "Auto Attack Cooldown",
+    "message.autoattack.enabled": "Auto Attack: ON",
+    "message.autoattack.disabled": "Auto Attack: OFF",
+
+    "title.autoattack.config": "Auto Attack Config",
+    "category.autoattack.general": "General",
+    "option.autoattack.enabled": "Enabled",
+    "option.autoattack.onlyAttackEntities": "Attack Entities Only",
+    "option.autoattack.onlyAttackEntities.tooltip": "When OFF, also swings at air to maintain attack rhythm",
+    "option.autoattack.preventBlockBreaking": "Prevent Block Breaking",
+    "option.autoattack.preventBlockBreaking.tooltip": "When ON, prevents breaking any blocks while auto-attack is active, avoiding mining interference with combat",
+    "option.autoattack.cooldownThreshold": "Cooldown Threshold",
+    "option.autoattack.cooldownThreshold.tooltip": "1.0 = full cooldown only; Lower = earlier attack but reduced damage",
+    "option.autoattack.respectUsingItem": "Pause When Using Item",
+    "option.autoattack.showToggleMessage": "Show Toggle Message"
+}

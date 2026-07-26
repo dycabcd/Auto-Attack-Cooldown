@@ -1,0 +1,18 @@
+{
+    "key.autoattack.toggle": "开关自动攻击",
+    "key.category.autoattack.main": "冷却自动攻击",
+    "message.autoattack.enabled": "自动攻击：已开启",
+    "message.autoattack.disabled": "自动攻击：已关闭",
+
+    "title.autoattack.config": "冷却自动攻击 设置",
+    "category.autoattack.general": "通用选项",
+    "option.autoattack.enabled": "启用模组",
+    "option.autoattack.onlyAttackEntities": "仅攻击实体",
+    "option.autoattack.onlyAttackEntities.tooltip": "关闭后，即使准星未指向实体也会自动挥击保持攻击节奏",
+    "option.autoattack.preventBlockBreaking": "阻止破坏方块",
+    "option.autoattack.preventBlockBreaking.tooltip": "开启后，自动攻击启用时不会破坏任何方块，避免挖矿干扰战斗",
+    "option.autoattack.cooldownThreshold": "冷却阈值",
+    "option.autoattack.cooldownThreshold.tooltip": "1.0 = 满冷却才出手；降低可提前出手但伤害降低",
+    "option.autoattack.respectUsingItem": "使用物品时暂停",
+    "option.autoattack.showToggleMessage": "切换提示"
+}
