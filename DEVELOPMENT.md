@@ -191,4 +191,4 @@
 
 ---
 
-*完整源码见 `autoattack-mod/` 目录 · 最终 JAR 见 `autoattack-1.0.0.jar`*
+*完整源码见 `autoattack-mod/` 目录 · 最终 JAR 见 `AutoAttackCooldown-1.0.0.jar`*

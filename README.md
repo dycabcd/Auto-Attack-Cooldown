@@ -27,7 +27,7 @@
 
 1. 安装 [Fabric Loader](https://fabricmc.net/use/)（≥ 0.19.0）
 2. 安装 [Fabric API](https://modrinth.com/mod/fabric-api)（≥ 0.100.0）
-3. 下载 `autoattack-1.0.0.jar`，放入 `.minecraft/mods/`
+3. 下载 `AutoAttackCooldown-1.0.0.jar`，放入 `.minecraft/mods/`
 4. （可选）安装 [ModMenu](https://modrinth.com/mod/modmenu) 和 [Cloth Config](https://modrinth.com/mod/cloth-config) 以使用游戏内配置界面
 
 ## 配置说明

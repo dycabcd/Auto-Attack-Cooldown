@@ -4,7 +4,7 @@
 
 | 文件 | 说明 |
 | --- | --- |
-| `autoattack-1.0.0.jar` | 可安装的模组本体（放入 `.minecraft/mods`） |
+| `AutoAttackCooldown-1.0.0.jar` | 可安装的模组本体（放入 `.minecraft/mods`） |
 | `autoattack-mod/` | 完整源码工程（Gradle + Fabric Loom，可二次开发） |
 
 前置要求：Minecraft 1.21.11 + Fabric Loader ≥ 0.19.0 + Fabric API ≥ 0.100.0 + Java ≥ 21（纯客户端，服务端无需安装）。
