@@ -1,0 +1,31 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+side="CLIENT"
+
+[[mods]]
+    modId="autoattack"
+    version="${version}"
+    displayName="AutoAttackCooldown"
+    logoFile="autoattack.png"
+    credits="GameDesigner"
+    authors="GameDesigner"
+    description='''
+长按攻击键，在攻击冷却完全恢复的瞬间自动出手。
+基于原版冷却机制，自动适配所有武器（含其他模组的自定义武器）。
+纯客户端，单人/多人通用。
+    '''
+
+[[dependencies.autoattack]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="CLIENT"
+
+[[dependencies.autoattack]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.21)"
+    ordering="NONE"
+    side="CLIENT"

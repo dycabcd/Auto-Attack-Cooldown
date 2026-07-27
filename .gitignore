@@ -1,56 +1,80 @@
-# =====================
-# Minecraft Fabric 模组通用忽略规则
-# =====================
+# ===========================
+# Minecraft Mod — .gitignore
+# 覆盖 Forge (1.20.1) 与 Fabric (1.21.11) 两个子模块
+# ===========================
 
-# --- Gradle 构建缓存 & 输出 ---
-.gradle/
-autoattack-mod/.gradle/
-autoattack-mod/build/
+# --- 构建产物 ---
 build/
-
-# --- 预构建 JAR 文件（不提交构建产物） ---
+**/build/
+out/
+bin/
+classes/
+generated/
 *.jar
-!autoattack-mod/gradle/wrapper/gradle-wrapper.jar
+*.zip
+*.tar.gz
 
-# --- Gradle Wrapper 二进制文件（保留 wrapper，忽略缓存） ---
-# git 应追踪 gradlew、gradlew.bat、gradle/wrapper/*，但排除 gradle-wrapper.jar？实际上需要保留
-# 下方保留了 wrapper jar
+# --- Gradle 缓存 ---
+.gradle/
+**/.gradle/
+!gradle/wrapper/gradle-wrapper.jar
 
-# --- IDE 配置 ---
+# --- ForgeGradle 缓存 ---
+**/fg_cache/
+**/META-INF/versions/
+
+# --- Fabric Loom 缓存 ---
+**/loom-cache/
+
+# --- Mixin 调试输出 ---
+*.mixin.out
+
+# --- Minecraft 开发运行环境 ---
+run/
+**/run/
+crash-reports/
+**/crash-reports/
+saves/
+**/saves/
+
+# --- IDE 生成文件 ---
 .idea/
 *.iml
+.vscode/
+.settings/
+.project
+.classpath
+.factorypath
+*.launch
+nbproject/
 *.ipr
 *.iws
-.classpath
-.project
-.settings/
-.vscode/
-*.class
 
-# --- Minecraft 运行目录 ---
-run/
-
-# --- 操作系统文件 ---
+# --- 系统文件 ---
 .DS_Store
 Thumbs.db
 Desktop.ini
+ehthumbs.db
+*.lnk
+core.*
 
-# --- 日志 & 临时文件 ---
+# --- 日志文件 ---
 *.log
+logs/
+**/logs/
+
+# --- 临时文件 ---
 *.tmp
+*.bak
 *.swp
 *.swo
 *~
+*.orig
+*.rej
 
-# --- 编译器输出 ---
-out/
-
-# --- JAR 签名文件（如已签名） ---
-META-INF/SIGNED.RSA
-META-INF/SIGNED.SF
-
-# --- 本地环境配置（不含敏感信息，但通常不共享） ---
+# --- 环境/本地配置 ---
 local.properties
+*.local
 
-# --- AI 工作辅助工具配置 ---
+# --- WorkBuddy 工作区数据 ---
 .workbuddy/

@@ -1,0 +1,13 @@
+{
+    "required": true,
+    "minVersion": "0.8",
+    "package": "dev.gamebuddy.autoattack.mixin",
+    "compatibilityLevel": "JAVA_17",
+    "client": [
+        "ClientPlayerInteractionManagerMixin"
+    ],
+    "refmap": "autoattack.refmap.json",
+    "injectors": {
+        "defaultRequire": 1
+    }
+}
