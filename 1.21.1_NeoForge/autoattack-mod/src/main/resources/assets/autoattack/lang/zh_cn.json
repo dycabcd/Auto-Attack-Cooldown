@@ -1,0 +1,21 @@
+{
+    "key.autoattack.toggle": "开关自动攻击",
+    "key.category.autoattack.main": "冷却自动攻击",
+
+    "message.autoattack.enabled": "自动攻击：已开启",
+    "message.autoattack.disabled": "自动攻击：已关闭",
+
+    "title.autoattack.config": "冷却自动攻击 设置",
+
+    "option.autoattack.enabled": "启用模组",
+    "option.autoattack.onlyAttackEntities": "仅攻击实体",
+    "option.autoattack.preventBlockBreaking": "阻止破坏方块",
+    "option.autoattack.cooldownThreshold": "冷却阈值",
+    "option.autoattack.respectUsingItem": "使用物品时暂停",
+    "option.autoattack.showToggleMessage": "切换提示",
+
+    "option.autoattack.penetrationEnabled": "穿草攻击",
+    "option.autoattack.penetrationAngle": "穿透角度",
+    "option.autoattack.penetrationMargin": "搜索余量",
+    "option.autoattack.penetrationDamageOnly": "仅 LivingEntity"
+}

@@ -1,0 +1,68 @@
+plugins {
+    id 'eclipse'
+    id 'idea'
+    id 'net.neoforged.moddev' version '1.0.21'
+    id 'java'
+}
+
+version = project.mod_version
+group = project.mod_group_id
+
+base {
+    archivesName = project.archives_base_name
+}
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(21)
+    }
+}
+
+// ★ NeoForge 1.21.1 必须在 neoforge.mods.toml 声明 [[mixins]] config = "autoattack.mixins.json"
+// ModDev 插件不自动注册 Mixin；不声明则 Mixin 静默失效（方块仍可挖，已踩坑）
+neoForge {
+    version = project.neoforge_version
+
+    runs {
+        client {
+            // ★ ModDev 用 client() 方法标记此 run 的类型为客户端
+            // （runClient 任务由名为 "client" 且 type=client 的 run 生成）
+            client()
+            gameDirectory = project.file('run')
+            systemProperty 'neoforge.logging.markers', 'REGISTRIES'
+            systemProperty 'neoforge.logging.console.level', 'debug'
+            mods {
+                autoattack {
+                    sourceSet = project.sourceSets.main
+                }
+            }
+        }
+    }
+}
+
+processResources {
+    inputs.property "version", project.mod_version
+
+    filesMatching("META-INF/neoforge.mods.toml") {
+        expand "version": project.mod_version
+    }
+}
+
+tasks.withType(JavaCompile).configureEach {
+    it.options.encoding = 'UTF-8'
+    it.options.release = 21
+}
+
+jar {
+    manifest {
+        attributes([
+                "Specification-Title"     : "AutoAttackCooldown",
+                "Specification-Vendor"    : "GameDesigner",
+                "Specification-Version"   : "1",
+                "Implementation-Title"    : project.name,
+                "Implementation-Version"  : project.jar.archiveVersion,
+                "Implementation-Vendor"   : "GameDesigner",
+                "Implementation-Timestamp": new Date().format("yyyy-MM-dd'T'HH:mm:ssZ")
+        ])
+    }
+}

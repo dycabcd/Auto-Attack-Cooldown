@@ -1,6 +1,6 @@
 # ===========================
 # Minecraft Mod — .gitignore
-# 覆盖 Forge (1.20.1) 与 Fabric (1.21.11) 两个子模块
+# 覆盖 Forge 1.20.1 / Fabric 1.21.11 / NeoForge 1.21.1 三个子模块
 # ===========================
 
 # --- 构建产物 ---
@@ -17,7 +17,11 @@ generated/
 # --- Gradle 缓存 ---
 .gradle/
 **/.gradle/
-!gradle/wrapper/gradle-wrapper.jar
+# ★ gradle-wrapper.jar 是构建必需的二进制，必须随仓库提交
+# （否则换机克隆后 ./gradlew 因找不到 GradleWrapperMain 无法启动）。
+# 用 ** 匹配所有子工程路径，抵消上面 *.jar 的忽略。
+# 若误删此行或改回单层路径，wrapper jar 会被 *.jar 忽略 → 换机构建失败。
+!**/gradle/wrapper/gradle-wrapper.jar
 
 # --- ForgeGradle 缓存 ---
 **/fg_cache/
@@ -25,6 +29,10 @@ generated/
 
 # --- Fabric Loom 缓存 ---
 **/loom-cache/
+
+# --- NeoForge ModDev 缓存 ---
+# moddev 生成的 MC+NeoForge 开发工件（反编译源码、合并 jar 等）在
+# build/moddev/ 下，已被上面的 **/build/ 覆盖，无需额外规则。
 
 # --- Mixin 调试输出 ---
 *.mixin.out

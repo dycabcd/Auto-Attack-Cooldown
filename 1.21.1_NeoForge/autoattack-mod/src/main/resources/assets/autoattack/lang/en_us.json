@@ -1,0 +1,21 @@
+{
+    "key.autoattack.toggle": "Toggle Auto Attack",
+    "key.category.autoattack.main": "AutoAttackCooldown",
+
+    "message.autoattack.enabled": "AutoAttackCooldown: ON",
+    "message.autoattack.disabled": "AutoAttackCooldown: OFF",
+
+    "title.autoattack.config": "AutoAttackCooldown Config",
+
+    "option.autoattack.enabled": "Enabled",
+    "option.autoattack.onlyAttackEntities": "Attack Entities Only",
+    "option.autoattack.preventBlockBreaking": "Prevent Block Breaking",
+    "option.autoattack.cooldownThreshold": "Cooldown Threshold",
+    "option.autoattack.respectUsingItem": "Pause When Using Item",
+    "option.autoattack.showToggleMessage": "Show Toggle Message",
+
+    "option.autoattack.penetrationEnabled": "Penetration Attack",
+    "option.autoattack.penetrationAngle": "Penetration Angle",
+    "option.autoattack.penetrationMargin": "Search Margin",
+    "option.autoattack.penetrationDamageOnly": "LivingEntity Only"
+}
